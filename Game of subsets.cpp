@@ -86,3 +86,5 @@ public:
         return (int)total_good_subsets;
     }
 };
+
+// C++ easy code 
