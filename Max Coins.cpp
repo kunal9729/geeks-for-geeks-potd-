@@ -40,3 +40,6 @@ int fun(vector<vector<int>>& ranges, int i, int taken) {
 
 };
 
+// T.C O(n log n)
+// S.C O(n)
+
