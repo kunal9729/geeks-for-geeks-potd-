@@ -30,3 +30,6 @@ public:
         return sum;
     }
 };
+
+// T.C O(n)
+// O.C O(1)
