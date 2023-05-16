@@ -1,3 +1,5 @@
+/************** Asked in Google, Flipkart, Walmart *///////////
+
 class Solution{
     public:
     int cuts(string s){
@@ -82,3 +84,5 @@ bool check(long long n)
 }
         
 };
+
+
