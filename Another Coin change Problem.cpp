@@ -51,32 +51,3 @@ class Solution {
 
 
 
-
-
-//{ Driver Code Starts.
-
-int main() {
-    int t;
-    scanf("%d ", &t);
-    while (t--) {
-
-        int N;
-        scanf("%d", &N);
-
-        int K;
-        scanf("%d", &K);
-
-        int target;
-        scanf("%d", &target);
-
-        vector<int> coins(N);
-        Array::input(coins, N);
-
-        Solution obj;
-        bool res = obj.makeChanges(N, K, target, coins);
-
-        cout << res << endl;
-    }
-}
-
-// } Driver Code Ends
