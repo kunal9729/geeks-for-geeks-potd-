@@ -1,5 +1,6 @@
 
-class Solution {
+class Solution 
+{
 public:
     void Rearrange(int arr[], int n) {
         auto mergeArrays = [&](int left, int mid, int right) {
